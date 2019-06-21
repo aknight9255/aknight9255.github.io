@@ -3,7 +3,7 @@ body {
 }
 .backgroundimg {
     background: url(assets/aboutmebackground2.jfif)no-repeat;
-    position: relative;
+    position: absolute;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -22,13 +22,12 @@ h2 {
 .AboutMe {
     border: solid white 5px;
 }
-.header{
-    padding-bottom: o;
-}
+
 .header h1{
     height: 100vh;
 position: absolute;
 top:20%;
+left: 7em;
 
 }
 .navbar-inner {
