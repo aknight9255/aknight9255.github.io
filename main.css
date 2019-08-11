@@ -41,18 +41,19 @@ height: 350px;
 #aboutme {
     border: rgba(20, 37, 68, 0.637) solid 8px;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	margin-top: 20px;
     padding: 20px; 
     text-align: center;
 }
 
 /* CONTACT AND RESUME */
 #box img{
-    border-radius: 50%;
-}
-#box img{
+	border-radius: 50%;
 	width: 10em;
+	margin: 3em;
 }
+
 #box {
     text-align: center;
 	background: rgba(241, 196, 71, 0.644);
@@ -83,21 +84,8 @@ h3 {
 }
    
 /* Project */
-.Project {
-    text-align: center;
-}
-
-.panel {
-    margin: 1em;
-    padding: 1em;
-    text-align: center;
-}
-.row {
-	position: relative;
-	padding: 1em 0 4em;
-	list-style: none;
-    text-align: center;
-    margin: 2em 5%;
+#projects {
+	margin-top: 20px;
 }
 
 /* Common style */
