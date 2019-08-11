@@ -43,6 +43,7 @@ height: 350px;
     margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
+	margin-bottom: 20px;
     padding: 20px; 
     text-align: center;
 }
@@ -50,15 +51,12 @@ height: 350px;
 /* CONTACT AND RESUME */
 #box img{
 	border-radius: 50%;
-	width: 10em;
+	width: 20em;
 	margin: 3em;
 }
 
 #box {
     text-align: center;
-	background: rgba(241, 196, 71, 0.644);
-	border: white 1px solid;
-	padding: 1em 1em;
 }
 h3 {
 	font-size: 1em;
@@ -70,6 +68,9 @@ h3 {
     width: 90%;
 }
 
+path {
+	fill: transparent;
+  }
 
 /* FOOTER */
 
